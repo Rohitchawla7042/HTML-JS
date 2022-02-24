@@ -1,0 +1,30 @@
+body {
+    background:red
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background: green;
+    position:absolute;
+    top:20%; 
+    left:10% ;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px #0B2429;
+    /* border-radius:  100px 100px 0 0 ; */
+    /* box-shadow: 0 0 0 50px ; */
+    /* border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px; */
+    /* border-top-right-radius: 110px;
+    border-top-left-radius: 110px;
+    border-bottom: 0px; */
+}
+.another-circle{
+    height: 50px;
+    width:50px; 
+    background:white;
+    position: absolute;
+    border-radius: 50%;
+    top:175px;
+    left:175px;
+
+}
