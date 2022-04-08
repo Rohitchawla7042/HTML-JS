@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover</title>
+</head>
+<body>
+    <div class="container">
+        <p id="para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ratione modi distinctio saepe, incidunt eius delectus debitis facere expedita quia sit quae nostrum cum, laboriosam error rem, nisi praesentium voluptas.
+        </p>
+    </div>
+    <button id="btn"onclick = "toggleHide()">Check</button>
+    <script>
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover' , function run(){
+            alert('mouse Inside');
+        })
+
+
+    </script>
+</body>
+</html>
