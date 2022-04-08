@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval</title>
+</head>
+<body>
+    <div class="container">
+        Time now is  <span id="time"></span>
+    </div>
+    <script>
+        console.log('Set Interval'); 
+        // setTimeout --> allows us to run the function once after the interval of time and we can pass multiple parameters and we have to give only function name , we don't have to call that function 
+        // clearTimeout --> allows us to run the function repeatedly after the interval of time a
+
+        function greet(name){
+            console.log("Hello Checking " + name);
+        }
+        setTimeout(greet , 5000);
+        // setTimeout(greet() , 5000); as this will not run as we put () in the syntax as we have to just write the funcn name we don;t have to call the function 
+
+        setInterval(greet , 2000 , "Checking") ;
+            
+        function displaytime(){
+            time = new Date();
+            console.log(time); 
+            document.getElementById('time').innerHTML = time; 
+        }
+        setInterval(displaytime, 1000);
+
+
+            
+        
+
+
+
+
+    </script>
+</body>
+</html>
